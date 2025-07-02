@@ -1,6 +1,6 @@
 # License
 
-This repository is unlicensed and is not open source. This means that you do not have permission to use, modify, or distribute any of the code or content in this repository for any purpose, commercial or non-commercial, without explicit permission from the author.
+The application released in this repository is unlicensed and is not open source. This means that you do not have permission to use, modify, or distribute the aplication itself or any content in this application for any purpose, commercial or non-commercial, without explicit permission from the author.
 
 The author is not responsible for any damages caused by the use of this application, and use of this application is strictly limited to personal and educational purposes only. Any use of this application beyond these limitations is strictly prohibited.
 
