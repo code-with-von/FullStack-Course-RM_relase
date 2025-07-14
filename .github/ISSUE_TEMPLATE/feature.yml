@@ -57,6 +57,13 @@ body:
       default: 0
     validations:
       required: true
+
+  - type: input
+    id: email
+    attributes:
+      label: "Email:"
+      description: If you select "Yes" above, please provide your email address so that we can contact you about this feature request.
+      placeholder: myemail@example.com
   
   - type: markdown
     attributes:
