@@ -1,5 +1,6 @@
 name: Feature Request
 description: What feature would you like to see?
+title: "[Feature Request]: your feature name here"
 assignees:
   - vonschappler
 labels:
@@ -8,18 +9,20 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: Please describe the feature you would like to see.
+      value: |
+        Please describe the feature you would like to see.
+        ## Feature information:
   
-  - type: checkboxes
+  - type: dropdown
     id: type
+    validations:
+      required: true
     attributes:
       label: "What type of feature is this?"
       description: Select if this is a new feature to be added or a feature to be modified.
       options:
-        - label: New feature
-          required: false
-        - label: Feature to be modified
-          required: false
+        - New feature
+        - Feature to be modified
   
   - type: textarea
     id: feature-description
@@ -38,6 +41,28 @@ body:
     attributes:
       label: "Why should we add this feature?"
       description: "Provide a reasonable explanation for why this feature should be added to this application."
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Contact information:
+  
+  - type: dropdown
+    id: contact
+    attributes:
+      label: "Do you want to be contcted about this feature request?"
+      options:
+        - "No"
+        - "Yes"
+      default: 0
+    validations:
+      required: true
+  
+  - type: markdown
+    attributes:
+      value: |
+        ## Terms:
+
 
   - type: checkboxes
     id: terms
