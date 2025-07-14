@@ -1,0 +1,97 @@
+name: Grammar, spelling and language improvements
+description: Did you found something that needs fix or improvment regarding the writing?
+title: "[Grammar Corrections]"
+assignees:
+  - vonschappler
+labels:
+  - grammar corrections
+  - triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Description of the problem:
+          
+        Please provide as much details as possible about the problem(s) found, filling the fields below properly while also proposing possible fixes to them.
+  
+  - type: dropdown
+    id: type
+    validations:
+      required: true
+    attributes:
+      label: "Which section you found the problem?"
+      description: Select which section(s) you found problem(s).
+      options:
+        - Table of Contents
+        - Terminology
+        - Introdcution / About the course
+        - Introduction / Working environment
+        - The Internet / History of the Internet
+        - The internet / Talking about Webdev
+        - Project Overview
+        - Git and Github / Git
+        - Git and Github / Using Git
+        - Git and Github / Basic Git Commands
+        - Git and Github / Advanced Git Commands
+        - Git and Github / Github in a nutshell
+        - Git and Github / Working with submodules
+        - Git and Github / Creating the project structure
+        - Help / About error and requests
+        - Help / Codeblocks
+        - Help / Live Editor
+        - Other / Not listed (specify below)
+  
+  - type: input
+    id: section
+    attributes:
+      label: "Section"
+      description: If you selected the option "Other / Not listed (specify below)" please specify the section here.
+      placeholder: Section name, e.g. Changelog
+
+  - type: textarea
+    id: error-correction
+    validations:
+      required: true
+    attributes:
+      label: "Please provide the details of the grammar / spelling errors found, with the proposed fix to them:"
+      description: "Provide detailed information about the errors found, so we can work on fixing them. Suggestions are also allowed to be provided, in case some of the writing can be improved."
+      placeholder: |
+        Please describe the errors found, folling the format below, with screenshots if possible:
+        
+        ## Section name
+        
+        - Spelling error at the text "... abot ..." should be "... about ..." at paragraph 5 of the section.
+  
+  - type: markdown
+    attributes:
+      value: |
+        ## Contact information:
+  
+  - type: dropdown
+    id: contact
+    attributes:
+      label: "Do you want to be contcted about this feature request?"
+      options:
+        - "No"
+        - "Yes"
+      default: 0
+  
+  - type: input
+    id: email
+    attributes:
+      label: "Email:"
+      description: If you select "Yes" above, please provide your email address so that we can contact you about this feature request.
+      placeholder: myemail@example.com
+  
+  - type: markdown
+    attributes:
+      value: |
+        ## Terms:
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 'Agreement:' 
+      options:
+        - label: I understand that the mother language of the creator of this applicatio is not English and that the writing may not be perfect. This is why I am providing this suggestion for fixes / improvements and that correcations proposed may not be accepted or take a while to be implemented.
+          required: true

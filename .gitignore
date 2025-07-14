@@ -2,3 +2,4 @@
 .vscode
 *.yml
 !feature.yml
+!grammar.yml

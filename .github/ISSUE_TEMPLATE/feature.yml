@@ -50,7 +50,8 @@ body:
   - type: dropdown
     id: contact
     attributes:
-      label: "Do you want to be contcted about this feature request?"
+      description: Let is know if you want to be contacted about this feature request.
+      label: "Do you want to be contacted about this feature request?"
       options:
         - "No"
         - "Yes"
@@ -67,7 +68,6 @@ body:
     attributes:
       value: |
         ## Terms:
-
 
   - type: checkboxes
     id: terms
