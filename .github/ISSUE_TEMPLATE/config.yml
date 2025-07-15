@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Direct contact using Discord
+    url: https://rebrand.ly/vonDiscord
+    about: Contact the developer directly using Discord on his Discord Server
+  - name: von Schappler's website
+    url: https://vonschappler.github.io
+    about: Visit my website
