@@ -60,7 +60,7 @@ body:
       placeholder: myemail@example.com
   
   - type: checkboxes
-    id: terms
+    id: consent
     attributes:
       label: 'Consentment:' 
       options:
