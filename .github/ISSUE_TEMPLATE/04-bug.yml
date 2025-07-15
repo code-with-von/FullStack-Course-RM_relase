@@ -31,7 +31,7 @@ body:
       placeholder: Leave this if you are unsure about your OS version
 
   - type: dropdown
-    id: type
+    id: app-version
     validations:
       required: true
     attributes:
