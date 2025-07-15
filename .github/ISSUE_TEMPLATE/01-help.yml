@@ -63,7 +63,7 @@ body:
     attributes:
       label: 'Consentment:' 
       options:
-        - label: By selecting "Yest" and providing my emails, I understand that the e-mail provided above will not be used by the developer for any purposes that are not related to direct contact regarding the subject of this issue.
+        - label: By selecting "Yes" and providing my e-mail, I understand that the developer won't be using it for any other purposes than contacting me about this issue.
   
   - type: markdown
     attributes:
