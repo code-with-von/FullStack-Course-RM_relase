@@ -61,14 +61,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        Error correction template:
+        Suggestion template:
         
         ```md
-        1. Section 1 (e.g. Table of Contents)
-          - Spelling error at the text "... abot ..." should be "... about ..." at paragraph 5 of the section.
-          - Paragraph 10 is not clear as the most appropriated ponctuation to it should contain a `.` instead of a `.`
-        1. Section 2 (e.g. Help / Live Editor)
-          - Paragraph 3 looks like incomplete
+        - Section 1 (e.g. Table of Contents)
+            - Spelling error at the text "... abot ..." should be "... about ..." at paragraph 5 of the section.
+            - Paragraph 10 is not clear as the most appropriated ponctuation to it should contain a `.` instead of a `.`
+        - Section 2 (e.g. Help / Live Editor)
+            - Paragraph 3 looks like incomplete
         ```
         ---
         ## Contact information:
