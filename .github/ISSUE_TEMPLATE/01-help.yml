@@ -43,7 +43,7 @@ body:
     id: contact
     attributes:
       description: Let us know if you want to be contacted directly about the pregress of work into this.
-      label: "Do you want to be contacted about this feature request?"
+      label: "Do you want to be contacted about this issue?"
       options:
         - "No"
         - "Yes"
@@ -76,5 +76,7 @@ body:
     attributes:
       label: 'Agreement:' 
       options:
-        - label: I consent that .
+        - label: I agree that by submitting this report the informations listed here are suggestions that aim to improve the application.
+          required: true
+        - label: I understand that my request may take some time to be attended, and the proposal for improvements i suggested may not be accepted, hence not applied to the application.
           required: true
