@@ -44,7 +44,8 @@ body:
     id: section
     attributes:
       label: "Section"
-      description: If you selected the option "Other / Not listed (specify below)" please specify the section here.
+      description: | 
+        If you selected the option "Other / Not listed (specify below)" please specify the section here.
       placeholder: Section name, e.g. Changelog
 
   - type: textarea
@@ -62,17 +63,13 @@ body:
       value: |
         Error correction template:
         
-        ```
+        ```md
         1. Section 1 (e.g. Table of Contents)
           - Spelling error at the text "... abot ..." should be "... about ..." at paragraph 5 of the section.
           - Paragraph 10 is not clear as the most appropriated ponctuation to it should contain a `.` instead of a `.`
         1. Section 2 (e.g. Help / Live Editor)
           - Paragraph 3 looks like incomplete
         ```
-  
-  - type: markdown
-    attributes:
-      value: |
         ---
         ## Contact information:
   
