@@ -4,13 +4,12 @@ title: "[Help improvements]"
 assignees:
   - vonschappler
 labels:
-  - help secion
+  - help section
   - triage
 body:
   - type: markdown
     attributes:
       value: |
-        ## Help Improvements:
         Please describe which improvements can be done into the **Help** section of the application.
   
   - type: dropdown
