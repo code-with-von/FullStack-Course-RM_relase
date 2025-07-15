@@ -78,5 +78,5 @@ body:
       options:
         - label: I agree that by submitting this report the informations listed here are suggestions that aim to improve the application.
           required: true
-        - label: I understand that my request may take some time to be attended, and the proposal for improvements i suggested may not be accepted, hence not applied to the application.
+        - label: I understand that my request may take some time to be attended, and the proposal for improvements I suggested may not be accepted, hence not applied to the application.
           required: true

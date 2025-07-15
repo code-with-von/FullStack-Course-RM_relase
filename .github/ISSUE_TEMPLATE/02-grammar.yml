@@ -1,0 +1,119 @@
+name: Grammar, spelling and language improvements
+description: Did you found something that needs fix or improvment regarding the writing? Use this to make  your suggestions!
+title: "[Grammar Corrections]"
+assignees:
+  - vonschappler
+labels:
+  - grammar corrections
+  - triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide as much details as possible about the problem(s) found, filling the fields below properly while also proposing possible fixes to them.
+  
+  - type: dropdown
+    id: type
+    validations:
+      required: true
+    attributes:
+      multiple: true
+      label: "Which section you found the problem?"
+      description: Select which section(s) you found problem(s).
+      options:
+        - Table of Contents
+        - Terminology
+        - Introdcution / About the course
+        - Introduction / Working environment
+        - The Internet / History of the Internet
+        - The internet / Talking about Webdev
+        - Project Overview
+        - Git and Github / Git
+        - Git and Github / Using Git
+        - Git and Github / Basic Git Commands
+        - Git and Github / Advanced Git Commands
+        - Git and Github / Github in a nutshell
+        - Git and Github / Working with submodules
+        - Git and Github / Creating the project structure
+        - Help / About error and requests
+        - Help / Codeblocks
+        - Help / Live Editor
+        - Other / Not listed (specify below)
+  
+  - type: input
+    id: section
+    attributes:
+      label: "Section"
+      description: If you selected the option "Other / Not listed (specify below)" please specify the section here.
+      placeholder: Section name, e.g. Changelog
+
+  - type: textarea
+    id: error-correction
+    validations:
+      required: true
+    attributes:
+      label: "Please provide the details of the grammar / spelling errors found, with the proposed fix to them:"
+      description: "Provide detailed information about the errors found, so we can work on fixing them. Suggestions are also allowed to be provided, in case some of the writing can be improved."
+      placeholder: |
+        Please describe the errors found, folling the template below, with screenshots if possible:
+        
+  - type: markdown
+    attributes:
+      value: |
+        Error correction template:
+        
+        ```
+        1. Section 1 (e.g. Table of Contents)
+          - Spelling error at the text "... abot ..." should be "... about ..." at paragraph 5 of the section.
+          - Paragraph 10 is not clear as the most appropriated ponctuation to it should contain a `.` instead of a `.`
+        1. Section 2 (e.g. Help / Live Editor)
+          - Paragraph 3 looks like incomplete
+        ```
+  
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## Contact information:
+  
+  - type: dropdown
+    id: contact
+    attributes:
+      description: Let us know if you want to be contacted directly about the pregress of work into this.
+      label: "Do you want to be contacted about this issue?"
+      options:
+        - "No"
+        - "Yes"
+      default: 0
+    validations:
+      required: true
+  
+  - type: input
+    id: email
+    attributes:
+      label: "Email:"
+      description: If you select "Yes" above, please provide your email address so that we can contact you about this feature request.
+      placeholder: myemail@example.com
+  
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: 'Consentment:' 
+      options:
+        - label: By selecting "Yes" and providing my e-mail, I understand that the developer won't be using it for any other purposes than contacting me about this issue.
+  
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## Terms:
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 'Agreement:' 
+      options:
+        - label: I agree that by submitting this report the informations listed here are suggestions that aim to improve the application.
+          required: true
+        - label: I understand that my request may take some time to be attended, and the proposal for improvements I suggested may not be accepted, hence not applied to the application.
+          required: true
