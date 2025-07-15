@@ -1,6 +1,6 @@
 name: Help Improvements
-description: Is something not detailed enough or missimgin the help section? Tell us what using this form!
-title: "[Help improvements]"
+description: Is something not detailed enough or missing in the help section? Tell us what using this form!
+title: "[Help Improvements]: your suggestion name here"
 assignees:
   - vonschappler
 labels:
@@ -18,7 +18,7 @@ body:
       required: true
     attributes:
       label: "My suggestion is releated to:"
-      description: Select the option that fits the type of suggestion..
+      description: Select the option that fits the type of suggestion.
       options:
         - Something not added to the help
         - Something added but that needs better explanation
@@ -29,7 +29,7 @@ body:
       required: true
     attributes:
       label: "Please provide a detailed description of what should be added or improved:"
-      description: "A detailed description of the changes is importat so can work those changes."
+      description: "A detailed description of the changes is important so can work those changes."
       placeholder: |
         Please add as much details as possible from the changes to be changed in the help section that would bring up improvement to it. Screenshots can be added here, if you judge necessary.
   

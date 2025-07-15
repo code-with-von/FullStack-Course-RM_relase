@@ -1,6 +1,6 @@
 name: Grammar, spelling and language improvements
 description: Did you found something that needs fix or improvment regarding the writing? Use this to make  your suggestions!
-title: "[Grammar Corrections]"
+title: "[Grammar Corrections]: your correction suggestion name here"
 assignees:
   - vonschappler
 labels:
@@ -19,7 +19,7 @@ body:
     attributes:
       multiple: true
       label: "Which section you found the problem?"
-      description: Select which section(s) you found problem(s).
+      description: Select which section(s) you found problem(s) that needs fixing.
       options:
         - Table of Contents
         - Terminology
