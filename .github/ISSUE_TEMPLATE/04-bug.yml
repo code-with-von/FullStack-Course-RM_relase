@@ -48,7 +48,7 @@ body:
       required: true
     attributes:
       label: "Tell us how the error happend, providing as much details as possible:"
-      description: "Providing the steps to reprocude the error helps us into working on the bug fix"
+      description: "Providing the steps to reproduce the error helps us into working on the bug fix"
       placeholder: |
         Provide a detailed description of the steps that caused the error. Screenshots / screen recordings are useful also to add more context to your steps description. The template below helps you to provide a beter description of the steps necessary to reproduce the error.
   - type: markdown
