@@ -1,0 +1,81 @@
+name: Help Improvements
+description: Is something not detailed enough or missimgin the help section? Tell us what using this form!
+title: "[Help improvements]"
+assignees:
+  - vonschappler
+labels:
+  - help secion
+  - triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Help Improvements:
+        Please describe which improvements can be done into the **Help** section of the application.
+  
+  - type: dropdown
+    id: type
+    validations:
+      required: true
+    attributes:
+      label: "My suggestion is releated to:"
+      description: Select the option that fits the type of suggestion..
+      options:
+        - Something not added to the help
+        - Something added but that needs better explanation
+  
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: "Please provide a detailed description of what should be added or improved:"
+      description: "A detailed description of the changes is importat so can work those changes."
+      placeholder: |
+        Please add as much details as possible from the changes to be changed in the help section that would bring up improvement to it. Screenshots can be added here, if you judge necessary.
+  
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## Contact information:
+  
+  - type: dropdown
+    id: contact
+    attributes:
+      description: Let us know if you want to be contacted directly about the pregress of work into this.
+      label: "Do you want to be contacted about this feature request?"
+      options:
+        - "No"
+        - "Yes"
+      default: 0
+    validations:
+      required: true
+  
+  - type: input
+    id: email
+    attributes:
+      label: "Email:"
+      description: If you select "Yes" above, please provide your email address so that we can contact you about this feature request.
+      placeholder: myemail@example.com
+  
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 'Consentment:' 
+      options:
+        - label: By selecting "Yest" and providing my emails, I understand that the e-mail provided above will not be used by the developer for any purposes that are not related to direct contact regarding the subject of this issue.
+  
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## Terms:
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 'Agreement:' 
+      options:
+        - label: I consent that .
+          required: true
